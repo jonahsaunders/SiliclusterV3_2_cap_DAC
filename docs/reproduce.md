@@ -9,13 +9,13 @@ hpretl/iic-osic-tools@sha256:5d6adf1f437cd0f2f8f8614488ec3c247ba8c768f4663a25d5e
 It supplies Magic 8.3.678, netgen 1.5.323, ngspice 46, KLayout, and SKY130A. Run commands from the repository root. The `bash -lc` shell initializes this image's tool paths. On Linux/macOS, a smoke check can be launched with:
 
 ```sh
-docker run --rm --entrypoint bash \
+docker run --rm --user 0:0 --entrypoint bash \
   -v "$PWD:/foss/designs" \
   hpretl/iic-osic-tools@sha256:5d6adf1f437cd0f2f8f8614488ec3c247ba8c768f4663a25d5e997b30ccb13b0 \
   -lc 'cd /foss/designs && bash scripts/verify.sh --smoke'
 ```
 
-For the full flow, omit `--smoke`. Use `JOBS=4` to bound concurrent qualification processes. Full tests can take tens of minutes and generate substantial raw waveform data under `verification/signoff/`; these regenerable vectors and DUT snapshots are ignored by Git and omitted from compact packages.
+The explicit container user permits writes to bind mounts whose owner differs from the image's default user. On Linux, generated files may be owned by root; use a suitable user mapping for your local setup if desired. For the full flow, omit `--smoke`. Use `JOBS=4` to bound concurrent qualification processes. Full tests can take tens of minutes and generate substantial raw waveform data under `verification/signoff/`; these regenerable vectors and DUT snapshots are ignored by Git and omitted from compact packages.
 
 The smoke check performs full GDS DRC, native/GDS LVS, antenna checks, geometry/interface auditing, a fresh layout/circuit rebuild, a check of the native-exported schematic snapshot, and ten extracted-layout conversion codes. It is not a rerun of all 2,304 full-sweep measurements. The full flow extracts new coupled capacitance and RC, prepares models, runs AC/PVT/mismatch/full-code suites, startup/settling/hold/numerical/noise tests, audits hashes and acceptance criteria, and regenerates figures, README, and validation text.
 
