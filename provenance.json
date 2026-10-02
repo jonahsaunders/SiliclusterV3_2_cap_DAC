@@ -1,0 +1,104 @@
+{
+  "project": "Silicluster v3 two-capacitor DAC",
+  "prepared_date": "2026-10-02",
+  "source_circuit": {
+    "repository": "https://github.com/jonahsaunders/tt_sky130_um_2_cap_DAC",
+    "commit": "b67d9ecd2a2fc5518c4d116b158384e28da9a48c",
+    "original_macro_um": [
+      161,
+      225.76
+    ]
+  },
+  "target_repository": "https://github.com/jonahsaunders/SiliclusterV3_2_cap_DAC",
+  "target_macro_um": [
+    180,
+    115
+  ],
+  "iic_osic_tools": {
+    "image": "hpretl/iic-osic-tools:2026.07 (digest pinned)",
+    "release": "2026.07",
+    "magic": "8.3.678",
+    "ngspice": "46",
+    "netgen": "1.5.323",
+    "pdk": "sky130A from image",
+    "image_digest": "hpretl/iic-osic-tools@sha256:5d6adf1f437cd0f2f8f8614488ec3c247ba8c768f4663a25d5e997b30ccb13b0"
+  },
+  "kicad": "10.0.6 native Windows CLI",
+  "references": [
+    {
+      "name": "KiStack",
+      "url": "https://github.com/American-Embedded/kistack",
+      "commit": "8494dbde095669df081950cbb6b24d08a21e25b0",
+      "skills": [
+        "schematic",
+        "symbol",
+        "export"
+      ]
+    },
+    {
+      "name": "Suarez, Gray, Hodges charge-sharing principle",
+      "title": "All-MOS Charge Redistribution Analog-to-Digital Conversion Techniques - Part II",
+      "journal": "IEEE Journal of Solid-State Circuits SC-10(6), pp. 379-385, December 1975",
+      "url": "https://web.eecs.utk.edu/~dbouldin/protected/gray-dec75.pdf"
+    },
+    {
+      "name": "Silicluster v3 full call for participation",
+      "file": "requirements/Silicluster_v3_full_call_for_participation.pdf",
+      "sha256": "5112ac192b13c57078aeae14609c0452c42b9916931132a10b47e6baef640015",
+      "source": "User supplied PDF; online Drive link https://drive.google.com/file/d/1klUP7QVIxQ_WQkeR2DaTIGTy1ccpNTSF/view",
+      "sections_applied": [
+        4,
+        8,
+        9,
+        10,
+        11,
+        16
+      ]
+    }
+  ],
+  "interface_confirmation": "Required: analog-slot allocation of three digital controls; final pin and power-grid template",
+  "public_interface_search": {
+    "checked_date": "2026-10-02",
+    "finding": "No v3 analog physical pin template or explicit analog digital-control allocation found",
+    "sources_checked": [
+      "GitHub Silicluster repositories including posoco2000/Convocatoria_silicluster (2025 call only)",
+      "https://www.linkedin.com/posts/uriel-jaramillo-toral-aab4b1199_asic-opensourceeda-sky130-activity-7432061982985318401-QSPG",
+      "User-supplied full v3 call"
+    ]
+  },
+  "schematic_review": "Silicluster scalar interface; conventional downward grounds/upward supplies; shared rails; native KiCad ERC, 72 visible connections and 26 property sets checked; detail renders visually reviewed.",
+  "maskhint_note": "Import GDS with gds maskhints yes to preserve narrow resistor URPM implant; full re-import DRC and LVS checked.",
+  "scope": "Separate compact analog macro, model-based qualification, GitHub publication, and submission preparation. No email, organizer acceptance, fabrication, or measured silicon.",
+  "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+  "extraction": {
+    "source": "delivered GDS",
+    "mode": "coupled C and full RC",
+    "extresist_threshold_milliohm": 1000,
+    "extresist_minres_milliohm": 1000,
+    "extresist_mindelay_ps": 0
+  },
+  "documentation_figures": {
+    "renderer": "scripts/render_docs.py",
+    "layout": "Delivered GDS polygons and layout/placement.json",
+    "linearity": "Nine full-code results and 32 local mismatch seeds",
+    "stability": "120 AC results and recorded buffer-step waveform vectors",
+    "timing": "Protocol illustration, separately labeled",
+    "schematic": "Native KiCad SVG export with deterministic connectivity/property checks"
+  },
+  "simulator_initialization": {
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "project_init": "scripts/ngspice/.spiceinit",
+    "init_sha256": "5da5922aca7908e2aed7eb7e2c6536ed2a93e415106a8c6ba668e68e0ab2a7bc",
+    "compatibility_mode": "native BSIM4; no additional compatibility mode",
+    "behavioral_resistor_noise_enabled": true,
+    "unused_other_pdk_osdi_preloads_removed": true,
+    "max_output_difference_uv": {
+      "init_nominal": 0.003999840014756728,
+      "init_mismatch": 0.020030050063013505
+    },
+    "cases": "Ten-code nominal probe and mismatch seed 1027 compared with original qualification initialization",
+    "passes_10uv": true,
+    "fresh_checkout_smoke": "PASS, explicit initialization and fresh RC extraction"
+  }
+}

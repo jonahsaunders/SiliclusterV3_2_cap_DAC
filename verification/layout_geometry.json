@@ -1,0 +1,58 @@
+{
+  "macro_um": [
+    180,
+    115
+  ],
+  "area_um2": 20700,
+  "bbox_um": [
+    0.0,
+    0.0,
+    180.0,
+    115.0
+  ],
+  "metal5_present": true,
+  "power_grid": "vertical M4, horizontal M5",
+  "manufacturing_grid_um": 0.005,
+  "capacitor_banks": {
+    "SAMPLE": {
+      "units": 16,
+      "centroid_um": [
+        72.75,
+        43.0
+      ]
+    },
+    "HOLD": {
+      "units": 16,
+      "centroid_um": [
+        72.75,
+        43.0
+      ]
+    }
+  },
+  "resistor_implants": [
+    {
+      "cell": "dev_res_xhigh_po_0p35_0p35_30",
+      "width_um": 1.27
+    },
+    {
+      "cell": "dev_res_xhigh_po_0p35_0p35_14",
+      "width_um": 1.27
+    }
+  ],
+  "interface_ports": [
+    "VGND",
+    "VDPWR",
+    "charge_high",
+    "charge_low",
+    "share",
+    "vref_high",
+    "vref_low",
+    "vout"
+  ],
+  "pin_rectangles_verified_in_gds_and_lef": 8,
+  "analog_inputs": 2,
+  "analog_outputs": 1,
+  "digital_control_inputs": 3,
+  "integration_status": "Organizer must confirm digital phase pins for an analog slot and final pin locations",
+  "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2"
+}

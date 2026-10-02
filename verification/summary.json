@@ -1,0 +1,53 @@
+{
+  "status": "Physical macro qualified in simulation; Silicluster analog digital-pin allocation and pin template await organizer confirmation",
+  "platform": "Silicluster v3",
+  "macro_um": [
+    180,
+    115
+  ],
+  "area_um2": 20700,
+  "area_reduction_from_source_pct": 43.049508960210595,
+  "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+  "rc_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+  "native_and_gds_lvs": "unique match without property errors",
+  "gds_drc_errors": 0,
+  "antenna_feedback_count": 0,
+  "schematic_erc_errors": 0,
+  "schematic_connections_checked": 72,
+  "full_code_sweeps": 9,
+  "full_code_measurements": 2304,
+  "pvt_probe_points": 30,
+  "mismatch_seeds": 32,
+  "stability_cases": 120,
+  "min_phase_margin_deg": 71.24770942743022,
+  "worst_full_endpoint_inl_lsb": 0.5526200184792971,
+  "min_full_dnl_lsb": -0.03134343654837446,
+  "max_full_dnl_lsb": 0.5384110475867314,
+  "max_pvt_probe_raw_error_lsb": 0.5579672462701727,
+  "mc_offset_range_mv": [
+    -29.223246246854018,
+    28.590579166082986
+  ],
+  "mc_gain_error_range_pct": [
+    -0.3726091623733718,
+    0.4110380813415304
+  ],
+  "max_supply_current_ua": 280.01297300000004,
+  "max_reference_current_ma": 0.31753171199999997,
+  "max_buffer_settling_0p5lsb_us": 6.40844497,
+  "max_buffer_overshoot_mv": 250.86574964999997,
+  "max_opposite_sample_kick_lsb": 0.28963140863159054,
+  "max_hold_drift_50us_lsb": 0.0030518307573044827,
+  "buffer_noise_uv_rms_range": [
+    57.448568889934606,
+    58.271932663552484
+  ],
+  "limitations": [
+    "Organizer confirmation required for three digital controls on an analog slot and final physical pin/power-rail positions",
+    "Offset and gain calibration needed for precise absolute voltage",
+    "Discrete PVT points and 32 mismatch seeds do not establish fabrication yield",
+    "References fixed at 0.2 V and 0.9 V; arbitrary reference ranges and faster protocols not qualified",
+    "Modeled buffer noise and kT/C are not silicon ENOB measurements",
+    "No chip-level ESD, padframe, package extraction, or organizer integration checks"
+  ]
+}

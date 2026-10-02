@@ -1,0 +1,28 @@
+name: Verify analog macro
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  physical-and-transfer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Physical verification and extracted-layout transfer
+        run: |
+          docker run --rm --entrypoint bash \
+            -v "$GITHUB_WORKSPACE:/foss/designs" \
+            hpretl/iic-osic-tools@sha256:5d6adf1f437cd0f2f8f8614488ec3c247ba8c768f4663a25d5e997b30ccb13b0 \
+            -lc 'cd /foss/designs && bash scripts/verify.sh --smoke'
+      - name: Retain verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: physical-and-transfer-evidence
+          path: |
+            verification/*.json
+            verification/*.log
+            verification/signoff/ci_probe*

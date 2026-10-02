@@ -1,0 +1,223 @@
+* PEX produced on Fri Oct  2 10:10:20 PM CEST 2026 using /foss/tools/sak/sak-pex.sh with m=2 and s=1
+* NGSPICE file created from silicluster_jonah_2cap_dac_pex.ext - technology: sky130A
+
+.subckt silicluster_jonah_2cap_dac_pex VGND VDPWR charge_high charge_low share vref_high
++ vref_low vout
+X0 VDPWR charge_high H_BAR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X1 VGND charge_low L_BAR VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X2 SAMPLE charge_low vref_low VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X3 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X4 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X5 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X6 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X7 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X8 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X9 VGND charge_high H_BAR VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X10 SAMPLE charge_high vref_high VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X11 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X12 VGND MIRROR AMP VGND sky130_fd_pr__nfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X13 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X14 TAIL vout MIRROR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+X15 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X16 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X17 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X18 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X19 HOLD S_BAR SAMPLE VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+X20 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X21 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X22 VDPWR BIAS TAIL VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X23 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X24 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X25 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X26 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X27 SAMPLE L_BAR vref_low VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+X28 VDPWR BIAS BIAS VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X29 AMP COMP VGND sky130_fd_pr__res_xhigh_po_0p35 l=14
+X30 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X31 RBMID VGND VGND sky130_fd_pr__res_xhigh_po_0p35 l=30
+X32 SAMPLE H_BAR vref_high VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+X33 BIAS RBMID VGND sky130_fd_pr__res_xhigh_po_0p35 l=30
+X34 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X35 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X36 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X37 VGND MIRROR MIRROR VGND sky130_fd_pr__nfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X38 VGND AMP vout VGND sky130_fd_pr__nfet_01v8 ad=5.8 pd=40.58 as=5.8 ps=40.58 w=20 l=1
+X39 COMP vout sky130_fd_pr__cap_mim_m3_1 l=26 w=26
+X40 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X41 TAIL HOLD AMP VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+X42 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X43 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X44 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X45 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X46 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X47 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X48 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X49 VDPWR share S_BAR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X50 VDPWR BIAS vout VDPWR sky130_fd_pr__pfet_01v8 ad=6.96 pd=48.58 as=6.96 ps=48.58 w=24 l=2
+X51 VDPWR charge_low L_BAR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X52 VGND share S_BAR VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X53 HOLD share SAMPLE VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X54 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X55 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+C0 S_BAR vout 0.61292f
+C1 RBMID charge_low 0.1591f
+C2 COMP charge_low 0.12909f
+C3 S_BAR MIRROR 0.30551f
+C4 HOLD BIAS 17.648f
+C5 AMP BIAS 0.81912f
+C6 vref_low RBMID 0.16036f
+C7 COMP vref_low 0.28961f
+C8 BIAS share 0.13127f
+C9 L_BAR RBMID 0.04221f
+C10 S_BAR SAMPLE 0.90771f
+C11 COMP L_BAR 0.26653f
+C12 TAIL BIAS 1.14771f
+C13 vref_low charge_low 0.78075f
+C14 H_BAR RBMID 0.0546f
+C15 BIAS vout 5.64417f
+C16 COMP H_BAR 0.25511f
+C17 RBMID vref_high 0.08621f
+C18 COMP vref_high 0.28757f
+C19 BIAS MIRROR 0.32391f
+C20 L_BAR charge_low 1.60091f
+C21 H_BAR charge_low 0.76108f
+C22 L_BAR vref_low 0.56894f
+C23 vref_high charge_low 0.31955f
+C24 SAMPLE BIAS 1.22764f
+C25 H_BAR vref_low 0.19024f
+C26 vref_low vref_high 15.0081f
+C27 VDPWR RBMID 2.26323f
+C28 COMP VDPWR 4.44695f
+C29 H_BAR L_BAR 14.0577f
+C30 RBMID charge_high 0.09755f
+C31 L_BAR vref_high 0.20135f
+C32 COMP charge_high 0.12909f
+C33 H_BAR vref_high 0.55001f
+C34 S_BAR BIAS 0.33222f
+C35 VDPWR charge_low 1.8988f
+C36 charge_low charge_high 2.94145f
+C37 VDPWR vref_low 0.85134f
+C38 vref_low charge_high 0.15129f
+C39 VDPWR L_BAR 1.47678f
+C40 HOLD RBMID 0.82066f
+C41 COMP HOLD 0.82333f
+C42 L_BAR charge_high 0.24326f
+C43 AMP RBMID 12.299f
+C44 VDPWR H_BAR 3.22917f
+C45 AMP COMP 27.1138f
+C46 VDPWR vref_high 0.86976f
+C47 H_BAR charge_high 1.84677f
+C48 vref_high charge_high 0.71753f
+C49 RBMID share 0.1328f
+C50 COMP share 0.1946f
+C51 HOLD charge_low 0.54663f
+C52 TAIL RBMID 0.28059f
+C53 COMP TAIL 0.39101f
+C54 AMP charge_low 0.12231f
+C55 RBMID vout 6.33235f
+C56 COMP vout 88.206f
+C57 HOLD vref_low 0.81247f
+C58 MIRROR RBMID 14.1735f
+C59 AMP vref_low 0.66207f
+C60 share charge_low 2.94123f
+C61 COMP MIRROR 0.41072f
+C62 TAIL charge_low 0.09588f
+C63 HOLD L_BAR 0.35767f
+C64 vout charge_low 0.34499f
+C65 AMP L_BAR 0.32572f
+C66 vref_low share 0.31581f
+C67 HOLD H_BAR 0.30556f
+C68 TAIL vref_low 0.22855f
+C69 VDPWR charge_high 5.16047f
+C70 MIRROR charge_low 0.09581f
+C71 AMP H_BAR 0.33432f
+C72 HOLD vref_high 1.34791f
+C73 SAMPLE RBMID 0.62895f
+C74 vref_low vout 1.80542f
+C75 COMP SAMPLE 1.30705f
+C76 AMP vref_high 0.36079f
+C77 L_BAR share 0.18608f
+C78 L_BAR TAIL 0.22804f
+C79 MIRROR vref_low 0.30593f
+C80 H_BAR share 3.98516f
+C81 L_BAR vout 0.5336f
+C82 H_BAR TAIL 0.26273f
+C83 vref_high share 0.30393f
+C84 TAIL vref_high 0.22843f
+C85 SAMPLE charge_low 0.93022f
+C86 H_BAR vout 0.60159f
+C87 L_BAR MIRROR 0.30518f
+C88 S_BAR RBMID 0.04231f
+C89 vout vref_high 1.07787f
+C90 S_BAR COMP 0.25324f
+C91 H_BAR MIRROR 0.35143f
+C92 SAMPLE vref_low 15.6351f
+C93 HOLD VDPWR 2.42188f
+C94 MIRROR vref_high 0.30573f
+C95 AMP VDPWR 4.0862f
+C96 HOLD charge_high 0.13989f
+C97 SAMPLE L_BAR 0.94254f
+C98 S_BAR charge_low 0.251f
+C99 AMP charge_high 0.10627f
+C100 SAMPLE H_BAR 0.87168f
+C101 VDPWR share 1.70165f
+C102 VDPWR TAIL 4.03493f
+C103 SAMPLE vref_high 1.77477f
+C104 S_BAR vref_low 0.2005f
+C105 share charge_high 0.31637f
+C106 VDPWR vout 11.147f
+C107 TAIL charge_high 0.09588f
+C108 BIAS RBMID 27.2898f
+C109 COMP BIAS 0.61847f
+C110 S_BAR L_BAR 14.0415f
+C111 vout charge_high 0.34848f
+C112 VDPWR MIRROR 1.83089f
+C113 S_BAR H_BAR 0.2516f
+C114 MIRROR charge_high 0.09581f
+C115 S_BAR vref_high 14.0727f
+C116 BIAS charge_low 0.13759f
+C117 AMP HOLD 1.5858f
+C118 SAMPLE VDPWR 2.96114f
+C119 BIAS vref_low 1.01769f
+C120 HOLD share 0.81245f
+C121 SAMPLE charge_high 0.74138f
+C122 HOLD TAIL 0.94092f
+C123 AMP share 0.15041f
+C124 AMP TAIL 14.5619f
+C125 L_BAR BIAS 0.32031f
+C126 HOLD vout 1.06652f
+C127 AMP vout 5.59254f
+C128 H_BAR BIAS 0.44326f
+C129 HOLD MIRROR 0.36443f
+C130 S_BAR VDPWR 1.47885f
+C131 TAIL share 0.09588f
+C132 BIAS vref_high 0.67981f
+C133 AMP MIRROR 1.49262f
+C134 S_BAR charge_high 0.23469f
+C135 vout share 0.80799f
+C136 TAIL vout 1.39738f
+C137 MIRROR share 0.09581f
+C138 TAIL MIRROR 14.7801f
+C139 HOLD SAMPLE 7.73697f
+C140 AMP SAMPLE 0.90636f
+C141 MIRROR vout 1.41213f
+C142 VDPWR BIAS 7.37419f
+C143 SAMPLE share 1.11898f
+C144 SAMPLE TAIL 0.2295f
+C145 BIAS charge_high 0.11255f
+C146 S_BAR HOLD 0.68861f
+C147 SAMPLE vout 1.30602f
+C148 S_BAR AMP 0.33692f
+C149 SAMPLE MIRROR 0.31918f
+C150 COMP RBMID 0.34126f
+C151 S_BAR share 1.73094f
+C152 S_BAR TAIL 0.22804f
+C153 vout VGND 48.1265f
+C154 vref_low VGND 22.71574f
+C155 vref_high VGND 23.64837f
+C156 VDPWR VGND 0.10582p
+C157 RBMID VGND 29.434f
+C158 TAIL VGND 65.59329f
+C159 S_BAR VGND 2.52237f
+.ends
+

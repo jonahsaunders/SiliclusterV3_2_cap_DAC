@@ -1,0 +1,5 @@
+# Preserve exact bytes for release manifest verification.
+* -text
+*.pdf binary
+*.png binary
+*.gds binary

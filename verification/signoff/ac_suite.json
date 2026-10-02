@@ -1,0 +1,2402 @@
+[
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0050010681152344,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1845884323120117,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0520825386047363,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 1.9686884880065918,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.233008861541748,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.247269630432129,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2305400371551514,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.186434268951416,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1864352226257324,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2957839965820312,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2654082775115967,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1846203804016113,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0765931606292725,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.113403081893921,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.272581100463867,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.125387191772461,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.170522928237915,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1531803607940674,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1115505695343018,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0124075412750244,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 3.3480892181396484,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 3.2575607299804688,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 3.344618082046509,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 3.3178935050964355,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2430334091186523,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.325528383255005,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.233321189880371,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.135100841522217,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2529361248016357,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2223870754241943,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1207425594329834,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2493033409118652,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2811219692230225,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.17856764793396,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.413632392883301,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2158918380737305,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1768455505371094,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2629406452178955,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.022122383117676,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.07749342918396,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2140727043151855,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1376073360443115,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1467199325561523,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.093764305114746,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.203535556793213,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1399717330932617,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.072141408920288,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.187349557876587,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0634353160858154,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.155881643295288,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2077372074127197,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.065106153488159,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1547510623931885,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1929802894592285,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0488460063934326,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0530667304992676,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.367344856262207,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.231895923614502,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.198767900466919,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.288987874984741,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.214460611343384,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.198035955429077,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.204275369644165,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1539013385772705,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1114249229431152,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1108574867248535,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.016878843307495,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0167574882507324,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.3167648315429688,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1995644569396973,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1989498138427734,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.3290891647338867,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0467512607574463,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1949822902679443,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1234657764434814,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.070136308670044,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 3.442258358001709,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 3.4582037925720215,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 3.4152424335479736,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 3.4394233226776123,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2486178874969482,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.170393466949463,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.230767011642456,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.3119451999664307,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2165534496307373,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.3316116333007812,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2400808334350586,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1900339126586914,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2838196754455566,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.236262321472168,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1059446334838867,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1368660926818848,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.15352463722229,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0822436809539795,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1461269855499268,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1373443603515625,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.167438268661499,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.281205654144287,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2135658264160156,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1130220890045166,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2580230236053467,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1837854385375977,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0496115684509277,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.219068765640259,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.4194984436035156,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2350118160247803,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.3419368267059326,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2663121223449707,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.199545383453369,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.207629680633545,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.232220411300659,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1640772819519043,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.137108325958252,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.184577703475952,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.046995162963867,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.0948500633239746,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.2385478019714355,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1441049575805664,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1150333881378174,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice"
+    ],
+    "seconds": 2.1845052242279053,
+    "returncode": 0
+  }
+]

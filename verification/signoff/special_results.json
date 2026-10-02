@@ -1,0 +1,141 @@
+[
+  {
+    "name": "powerup",
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "raw_error_lsb": 0.042755291428591136,
+    "passes_0p5lsb": true,
+    "supply_ramp_us": 10,
+    "reference_ramp_end_us": 15,
+    "sequence_start_us": 20,
+    "initial_state": "UIC zero stored voltages"
+  },
+  {
+    "name": "step_tt_1.8_27_5",
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "corner": "tt",
+    "supply_v": 1.8,
+    "temp_c": 27,
+    "load_pf": 5,
+    "steps": [
+      {
+        "direction": "up",
+        "settling_0p5lsb_us": 1.32597568,
+        "overshoot_mv": 0.0,
+        "final_v": 0.899975023
+      },
+      {
+        "direction": "down",
+        "settling_0p5lsb_us": 1.2723658000000004,
+        "overshoot_mv": 2.7755575615628914e-14,
+        "final_v": 0.20020850500000004
+      }
+    ],
+    "passes_3us": true
+  },
+  {
+    "name": "step_ss_1.62_-40_20",
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "corner": "ss",
+    "supply_v": 1.62,
+    "temp_c": -40,
+    "load_pf": 20,
+    "steps": [
+      {
+        "direction": "up",
+        "settling_0p5lsb_us": 6.40844497,
+        "overshoot_mv": 250.86574964999997,
+        "final_v": 0.90017431035
+      },
+      {
+        "direction": "down",
+        "settling_0p5lsb_us": 1.5223507000000003,
+        "overshoot_mv": 0.5107450000000346,
+        "final_v": 0.19996596100000003
+      }
+    ],
+    "passes_3us": false
+  },
+  {
+    "name": "step_ff_1.98_-40_5",
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "corner": "ff",
+    "supply_v": 1.98,
+    "temp_c": -40,
+    "load_pf": 5,
+    "steps": [
+      {
+        "direction": "up",
+        "settling_0p5lsb_us": 1.2376654699999998,
+        "overshoot_mv": 1.1102230246251565e-13,
+        "final_v": 0.8999100899999999
+      },
+      {
+        "direction": "down",
+        "settling_0p5lsb_us": 1.1709545,
+        "overshoot_mv": -2.7755575615628914e-14,
+        "final_v": 0.20007310299999997
+      }
+    ],
+    "passes_3us": true
+  },
+  {
+    "name": "hold_tt_85_0",
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "corner": "tt",
+    "temp_c": 85,
+    "code": 0,
+    "opposite_sample_kick_lsb": 0.28962386386139777,
+    "hold_drift_50us_lsb": 0.0028521312548487492,
+    "hold_drift_98p9us_lsb": 0.005669407744000361
+  },
+  {
+    "name": "hold_tt_85_255",
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "corner": "tt",
+    "temp_c": 85,
+    "code": 255,
+    "opposite_sample_kick_lsb": -0.2859514475092137,
+    "hold_drift_50us_lsb": -0.0011428977583705091,
+    "hold_drift_98p9us_lsb": -0.0023204293957438237
+  },
+  {
+    "name": "hold_ff_85_0",
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "corner": "ff",
+    "temp_c": 85,
+    "code": 0,
+    "opposite_sample_kick_lsb": 0.28963140863159054,
+    "hold_drift_50us_lsb": 0.0030518307573044827,
+    "hold_drift_98p9us_lsb": 0.006062090997391222
+  },
+  {
+    "name": "hold_ff_85_255",
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "corner": "ff",
+    "temp_c": 85,
+    "code": 255,
+    "opposite_sample_kick_lsb": -0.2859551739764957,
+    "hold_drift_50us_lsb": -0.0013111472537730151,
+    "hold_drift_98p9us_lsb": -0.002585713651594038
+  },
+  {
+    "name": "equivalence",
+    "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+    "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+    "max_output_difference_uv": {
+      "numeric_25": 0.009895217978339588,
+      "model_full": 0.0,
+      "rc_unreduced": 0.0017084900161279393
+    },
+    "same_seed_repeat_difference_uv": 0.0,
+    "passes": true
+  }
+]

@@ -1,0 +1,32 @@
+* Suarez DAC extracted-layout qualification
+.include sim/models/sky130_fs.spice
+.include verification/signoff/ac_fs_1.62_85.0_20.0_0.2_rz14_cc26_loop.spice
+.temp 85.0
+VDD vdd 0 1.62
+VHI refh 0 .9
+VLO refl 0 .2
+RHI refh hi 500
+RLO refl lo 500
+CHI hi 0 5p
+CLO lo 0 5p
+ROUT out pad 500
+COUT pad 0 20.0p
+RLOAD pad 0 10Meg
+XDUT 0 vdd h l s hi lo out silicluster_jonah_2cap_dac_pex
+.options method=trap reltol=1e-5 abstol=1e-13 vntol=1e-7
+VH h 0 0
+VL l 0 0
+VS s 0 0
+VFORCE XDUT.HOLD 0 0.2
+VINJECT XDUT.FBX XDUT.vout.t4 0 AC 1
+EOBS return 0 XDUT.vout.t4 0 1
+.control
+set wr_vecnames
+set wr_singlescale
+op
+wrdata verification/signoff/ac_fs_1.62_85.0_20.0_0.2_rz14_cc26_op.txt v(out) i(VDD)
+ac dec 100 1 1G
+wrdata verification/signoff/ac_fs_1.62_85.0_20.0_0.2_rz14_cc26.txt v(return) v(XDUT.FBX)
+quit
+.endc
+.end

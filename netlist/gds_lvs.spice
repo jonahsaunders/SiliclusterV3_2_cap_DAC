@@ -1,0 +1,62 @@
+* NGSPICE file created from silicluster_jonah_2cap_dac_flat.ext - technology: sky130A
+
+.subckt silicluster_jonah_2cap_dac_flat VGND VDPWR charge_high charge_low share vref_high
++ vref_low vout
+X0 VDPWR charge_high H_BAR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X1 VGND charge_low L_BAR VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X2 SAMPLE charge_low vref_low VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X3 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X4 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X5 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X6 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X7 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X8 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X9 VGND charge_high H_BAR VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X10 SAMPLE charge_high vref_high VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X11 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X12 VGND MIRROR AMP VGND sky130_fd_pr__nfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X13 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X14 TAIL vout MIRROR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+X15 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X16 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X17 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X18 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X19 HOLD S_BAR SAMPLE VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+X20 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X21 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X22 VDPWR BIAS TAIL VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X23 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X24 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X25 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X26 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X27 SAMPLE L_BAR vref_low VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+X28 VDPWR BIAS BIAS VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X29 AMP COMP VGND sky130_fd_pr__res_xhigh_po_0p35 l=14
+X30 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X31 RBMID VGND VGND sky130_fd_pr__res_xhigh_po_0p35 l=30
+X32 SAMPLE H_BAR vref_high VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+X33 BIAS RBMID VGND sky130_fd_pr__res_xhigh_po_0p35 l=30
+X34 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X35 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X36 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X37 VGND MIRROR MIRROR VGND sky130_fd_pr__nfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X38 VGND AMP vout VGND sky130_fd_pr__nfet_01v8 ad=5.8 pd=40.58 as=5.8 ps=40.58 w=20 l=1
+X39 COMP vout sky130_fd_pr__cap_mim_m3_1 l=26 w=26
+X40 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X41 TAIL HOLD AMP VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+X42 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X43 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X44 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X45 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X46 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X47 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X48 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X49 VDPWR share S_BAR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X50 VDPWR BIAS vout VDPWR sky130_fd_pr__pfet_01v8 ad=6.96 pd=48.58 as=6.96 ps=48.58 w=24 l=2
+X51 VDPWR charge_low L_BAR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X52 VGND share S_BAR VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X53 HOLD share SAMPLE VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X54 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X55 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+.ends
+

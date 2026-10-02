@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+/build/
+*.kicad_prl
+*.kicad_sch.lck
+/verification/signoff/*_dut.spice
+/verification/signoff/*.txt
+!/verification/signoff/step_*.txt
+!/verification/signoff/hold_*.txt
+!/verification/signoff/powerup.txt
+!/verification/signoff/noise_*.txt
+/verification/signoff/ci_probe*
+/*.zip

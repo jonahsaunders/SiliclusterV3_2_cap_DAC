@@ -1,0 +1,35 @@
+{
+  "name": "numeric_25",
+  "corner": "tt",
+  "supply_v": 1.8,
+  "temp_c": 27,
+  "load_pf": 5,
+  "step_ns": 25,
+  "mismatch_seed": null,
+  "netlist": "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice",
+  "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+  "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+  "model_sha256": "2377488feb3c1ef7bf62d2f1b091379e69f735fe5e12802d4d11b70d99276f4d",
+  "measurements": [
+    {
+      "code": 0,
+      "time_us": 46.400000000000006,
+      "ideal_v": 0.2
+    },
+    {
+      "code": 127,
+      "time_us": 93.30000000000005,
+      "ideal_v": 0.547265625
+    },
+    {
+      "code": 128,
+      "time_us": 140.20000000000005,
+      "ideal_v": 0.55
+    },
+    {
+      "code": 255,
+      "time_us": 187.09999999999985,
+      "ideal_v": 0.897265625
+    }
+  ]
+}

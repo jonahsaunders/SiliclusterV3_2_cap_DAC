@@ -1,0 +1,17 @@
+{
+  "name": "ac_fs_1.62_-40.0_5.0_0.9_rz14_cc26",
+  "corner": "fs",
+  "supply": 1.62,
+  "temp": -40.0,
+  "load": 5.0,
+  "vin": 0.9,
+  "rz_l": 14,
+  "cc_size": 26,
+  "netlist": "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice",
+  "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+  "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+  "dc_gain_db": 75.94228699314202,
+  "unity_gain_hz": 1451223.8576635807,
+  "phase_margin_deg": 104.97511657836768,
+  "passes_60deg": true
+}

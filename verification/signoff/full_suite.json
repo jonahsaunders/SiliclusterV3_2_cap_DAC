@@ -1,0 +1,3170 @@
+[
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block000"
+    ],
+    "seconds": 11.400386095046997,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block008"
+    ],
+    "seconds": 11.683823347091675,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block016"
+    ],
+    "seconds": 11.97798490524292,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block024"
+    ],
+    "seconds": 11.952677488327026,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block032"
+    ],
+    "seconds": 11.913807392120361,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block040"
+    ],
+    "seconds": 12.29017424583435,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block048"
+    ],
+    "seconds": 12.050351858139038,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block056"
+    ],
+    "seconds": 11.974252462387085,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block064"
+    ],
+    "seconds": 11.74303150177002,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block072"
+    ],
+    "seconds": 12.189906597137451,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block080"
+    ],
+    "seconds": 12.109321355819702,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block088"
+    ],
+    "seconds": 12.146595478057861,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block096"
+    ],
+    "seconds": 11.54496169090271,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block104"
+    ],
+    "seconds": 13.040004253387451,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block112"
+    ],
+    "seconds": 12.896371841430664,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block120"
+    ],
+    "seconds": 12.816688299179077,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block128"
+    ],
+    "seconds": 12.906939506530762,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block136"
+    ],
+    "seconds": 12.038569688796997,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block144"
+    ],
+    "seconds": 11.935407638549805,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block152"
+    ],
+    "seconds": 12.064098596572876,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block160"
+    ],
+    "seconds": 11.768942832946777,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block168"
+    ],
+    "seconds": 11.79416799545288,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block176"
+    ],
+    "seconds": 12.095679998397827,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block184"
+    ],
+    "seconds": 11.637417793273926,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block192"
+    ],
+    "seconds": 11.99268126487732,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block200"
+    ],
+    "seconds": 12.248547792434692,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block208"
+    ],
+    "seconds": 12.354910135269165,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block216"
+    ],
+    "seconds": 12.13180947303772,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block224"
+    ],
+    "seconds": 10.730895757675171,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block232"
+    ],
+    "seconds": 11.142693042755127,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block240"
+    ],
+    "seconds": 11.290176391601562,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block248"
+    ],
+    "seconds": 10.446484804153442,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block000"
+    ],
+    "seconds": 11.031165599822998,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block008"
+    ],
+    "seconds": 11.253379344940186,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block016"
+    ],
+    "seconds": 11.493056058883667,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block024"
+    ],
+    "seconds": 11.33843469619751,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block032"
+    ],
+    "seconds": 12.343470335006714,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block040"
+    ],
+    "seconds": 12.460502624511719,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block048"
+    ],
+    "seconds": 12.43152666091919,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block056"
+    ],
+    "seconds": 12.255791664123535,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block064"
+    ],
+    "seconds": 11.562927484512329,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block072"
+    ],
+    "seconds": 11.844979763031006,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block080"
+    ],
+    "seconds": 11.773937702178955,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block088"
+    ],
+    "seconds": 11.74013638496399,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block096"
+    ],
+    "seconds": 11.254783153533936,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block104"
+    ],
+    "seconds": 12.89056921005249,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block112"
+    ],
+    "seconds": 12.770763397216797,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block120"
+    ],
+    "seconds": 12.483932256698608,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block128"
+    ],
+    "seconds": 12.27678918838501,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block136"
+    ],
+    "seconds": 11.597268342971802,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block144"
+    ],
+    "seconds": 11.702707767486572,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block152"
+    ],
+    "seconds": 11.613729000091553,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block160"
+    ],
+    "seconds": 10.610429525375366,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block168"
+    ],
+    "seconds": 11.074403524398804,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block176"
+    ],
+    "seconds": 10.927300453186035,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block184"
+    ],
+    "seconds": 10.919583797454834,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block192"
+    ],
+    "seconds": 12.01926302909851,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block200"
+    ],
+    "seconds": 12.497733116149902,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block208"
+    ],
+    "seconds": 12.27362847328186,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block216"
+    ],
+    "seconds": 12.323663234710693,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block224"
+    ],
+    "seconds": 10.979880571365356,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block232"
+    ],
+    "seconds": 11.165798664093018,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block240"
+    ],
+    "seconds": 11.072666645050049,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block248"
+    ],
+    "seconds": 10.740692377090454,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block000"
+    ],
+    "seconds": 10.827924966812134,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block008"
+    ],
+    "seconds": 11.617725372314453,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block016"
+    ],
+    "seconds": 11.803492784500122,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block024"
+    ],
+    "seconds": 11.751110315322876,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block032"
+    ],
+    "seconds": 12.722707271575928,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block040"
+    ],
+    "seconds": 12.533587217330933,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block048"
+    ],
+    "seconds": 12.396677732467651,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block056"
+    ],
+    "seconds": 12.166939735412598,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block064"
+    ],
+    "seconds": 11.043944358825684,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block072"
+    ],
+    "seconds": 11.533105611801147,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block080"
+    ],
+    "seconds": 11.517364740371704,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block088"
+    ],
+    "seconds": 11.349501848220825,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block096"
+    ],
+    "seconds": 11.146788120269775,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block104"
+    ],
+    "seconds": 13.00404167175293,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block112"
+    ],
+    "seconds": 12.757832765579224,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block120"
+    ],
+    "seconds": 12.417089939117432,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block128"
+    ],
+    "seconds": 13.029106616973877,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block136"
+    ],
+    "seconds": 12.351886510848999,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block144"
+    ],
+    "seconds": 12.33391547203064,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block152"
+    ],
+    "seconds": 12.105648040771484,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block160"
+    ],
+    "seconds": 11.64130163192749,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block168"
+    ],
+    "seconds": 11.697434902191162,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block176"
+    ],
+    "seconds": 11.529090642929077,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block184"
+    ],
+    "seconds": 11.40333604812622,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block192"
+    ],
+    "seconds": 12.210600137710571,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block200"
+    ],
+    "seconds": 13.02550482749939,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block208"
+    ],
+    "seconds": 12.781461477279663,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block216"
+    ],
+    "seconds": 12.639806032180786,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block224"
+    ],
+    "seconds": 11.355355262756348,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block232"
+    ],
+    "seconds": 11.969295740127563,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block240"
+    ],
+    "seconds": 11.946195363998413,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block248"
+    ],
+    "seconds": 11.413163900375366,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block000"
+    ],
+    "seconds": 11.12459945678711,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block008"
+    ],
+    "seconds": 12.396072149276733,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block016"
+    ],
+    "seconds": 12.594732761383057,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block024"
+    ],
+    "seconds": 12.74472451210022,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block032"
+    ],
+    "seconds": 12.052185535430908,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block040"
+    ],
+    "seconds": 11.152687311172485,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block048"
+    ],
+    "seconds": 11.256247520446777,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block056"
+    ],
+    "seconds": 11.205879926681519,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block064"
+    ],
+    "seconds": 10.905537605285645,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block072"
+    ],
+    "seconds": 11.266154289245605,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block080"
+    ],
+    "seconds": 11.399952411651611,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block088"
+    ],
+    "seconds": 11.116786241531372,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block096"
+    ],
+    "seconds": 11.301712989807129,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block104"
+    ],
+    "seconds": 12.849395036697388,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block112"
+    ],
+    "seconds": 12.299341917037964,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block120"
+    ],
+    "seconds": 12.213945388793945,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block128"
+    ],
+    "seconds": 11.781321048736572,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block136"
+    ],
+    "seconds": 10.433796644210815,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block144"
+    ],
+    "seconds": 10.451079368591309,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block152"
+    ],
+    "seconds": 10.570485591888428,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block160"
+    ],
+    "seconds": 10.399728059768677,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block168"
+    ],
+    "seconds": 10.731898069381714,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block176"
+    ],
+    "seconds": 10.663631677627563,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block184"
+    ],
+    "seconds": 10.289777755737305,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block192"
+    ],
+    "seconds": 10.199387788772583,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block200"
+    ],
+    "seconds": 11.763723134994507,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block208"
+    ],
+    "seconds": 11.940716981887817,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block216"
+    ],
+    "seconds": 11.605856895446777,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block224"
+    ],
+    "seconds": 11.649973392486572,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block232"
+    ],
+    "seconds": 11.031696796417236,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block240"
+    ],
+    "seconds": 10.900726079940796,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block248"
+    ],
+    "seconds": 10.780874729156494,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block000"
+    ],
+    "seconds": 10.603381633758545,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block008"
+    ],
+    "seconds": 11.116764545440674,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block016"
+    ],
+    "seconds": 11.107987642288208,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block024"
+    ],
+    "seconds": 11.252140522003174,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block032"
+    ],
+    "seconds": 12.554151058197021,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block040"
+    ],
+    "seconds": 12.004617929458618,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block048"
+    ],
+    "seconds": 12.205284118652344,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block056"
+    ],
+    "seconds": 11.790485620498657,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block064"
+    ],
+    "seconds": 10.321398735046387,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block072"
+    ],
+    "seconds": 10.980123043060303,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block080"
+    ],
+    "seconds": 11.34626030921936,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block088"
+    ],
+    "seconds": 10.72458291053772,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block096"
+    ],
+    "seconds": 10.933640718460083,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block104"
+    ],
+    "seconds": 12.596354961395264,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block112"
+    ],
+    "seconds": 11.989788293838501,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block120"
+    ],
+    "seconds": 11.863205432891846,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block128"
+    ],
+    "seconds": 11.976222276687622,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block136"
+    ],
+    "seconds": 11.112425565719604,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block144"
+    ],
+    "seconds": 11.057862281799316,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block152"
+    ],
+    "seconds": 10.82448935508728,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block160"
+    ],
+    "seconds": 10.67839789390564,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block168"
+    ],
+    "seconds": 11.528671264648438,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block176"
+    ],
+    "seconds": 11.69817566871643,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block184"
+    ],
+    "seconds": 11.499542236328125,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block192"
+    ],
+    "seconds": 11.52783489227295,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block200"
+    ],
+    "seconds": 13.046604633331299,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block208"
+    ],
+    "seconds": 13.314141035079956,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block216"
+    ],
+    "seconds": 12.874973058700562,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block224"
+    ],
+    "seconds": 12.859418153762817,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block232"
+    ],
+    "seconds": 11.784842729568481,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block240"
+    ],
+    "seconds": 11.78394341468811,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block248"
+    ],
+    "seconds": 11.531485795974731,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block000"
+    ],
+    "seconds": 10.56608271598816,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block008"
+    ],
+    "seconds": 11.12745451927185,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block016"
+    ],
+    "seconds": 11.228473663330078,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block024"
+    ],
+    "seconds": 10.916036605834961,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block032"
+    ],
+    "seconds": 11.27754282951355,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block040"
+    ],
+    "seconds": 11.884954690933228,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block048"
+    ],
+    "seconds": 12.039879083633423,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block056"
+    ],
+    "seconds": 12.017435312271118,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block064"
+    ],
+    "seconds": 11.66951608657837,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block072"
+    ],
+    "seconds": 10.28142762184143,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block080"
+    ],
+    "seconds": 10.105550765991211,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block088"
+    ],
+    "seconds": 10.02207636833191,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block096"
+    ],
+    "seconds": 10.036935806274414,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block104"
+    ],
+    "seconds": 10.269561767578125,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block112"
+    ],
+    "seconds": 10.074894189834595,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block120"
+    ],
+    "seconds": 10.082597494125366,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block128"
+    ],
+    "seconds": 9.566484451293945,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block136"
+    ],
+    "seconds": 12.833240032196045,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block144"
+    ],
+    "seconds": 12.961355447769165,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block152"
+    ],
+    "seconds": 12.661621809005737,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block160"
+    ],
+    "seconds": 12.664743900299072,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block168"
+    ],
+    "seconds": 11.195631265640259,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block176"
+    ],
+    "seconds": 11.099130868911743,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block184"
+    ],
+    "seconds": 10.98967432975769,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block192"
+    ],
+    "seconds": 10.512804508209229,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block200"
+    ],
+    "seconds": 11.45222544670105,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block208"
+    ],
+    "seconds": 11.646963834762573,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block216"
+    ],
+    "seconds": 11.586376428604126,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block224"
+    ],
+    "seconds": 11.449326992034912,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block232"
+    ],
+    "seconds": 9.982466459274292,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block240"
+    ],
+    "seconds": 9.921338081359863,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block248"
+    ],
+    "seconds": 9.638728857040405,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block000"
+    ],
+    "seconds": 10.43799877166748,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block008"
+    ],
+    "seconds": 11.67833924293518,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block016"
+    ],
+    "seconds": 12.093354225158691,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block024"
+    ],
+    "seconds": 11.869778871536255,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block032"
+    ],
+    "seconds": 11.748800992965698,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block040"
+    ],
+    "seconds": 12.711766481399536,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block048"
+    ],
+    "seconds": 12.722513437271118,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block056"
+    ],
+    "seconds": 12.522868871688843,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block064"
+    ],
+    "seconds": 12.488636493682861,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block072"
+    ],
+    "seconds": 13.523755073547363,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block080"
+    ],
+    "seconds": 13.673556089401245,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block088"
+    ],
+    "seconds": 13.059165716171265,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block096"
+    ],
+    "seconds": 13.232572555541992,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block104"
+    ],
+    "seconds": 11.828419208526611,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block112"
+    ],
+    "seconds": 11.349003791809082,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block120"
+    ],
+    "seconds": 11.18639349937439,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block128"
+    ],
+    "seconds": 11.155817985534668,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block136"
+    ],
+    "seconds": 12.74905776977539,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block144"
+    ],
+    "seconds": 12.431880712509155,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block152"
+    ],
+    "seconds": 12.607802867889404,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block160"
+    ],
+    "seconds": 12.356592655181885,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block168"
+    ],
+    "seconds": 11.54749584197998,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block176"
+    ],
+    "seconds": 11.480769157409668,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block184"
+    ],
+    "seconds": 11.160410165786743,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block192"
+    ],
+    "seconds": 11.138115882873535,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block200"
+    ],
+    "seconds": 13.572979211807251,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block208"
+    ],
+    "seconds": 13.812304973602295,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block216"
+    ],
+    "seconds": 13.324896574020386,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block224"
+    ],
+    "seconds": 13.295698642730713,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block232"
+    ],
+    "seconds": 11.855895280838013,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block240"
+    ],
+    "seconds": 12.136364221572876,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block248"
+    ],
+    "seconds": 11.882831335067749,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block000"
+    ],
+    "seconds": 11.365091800689697,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block008"
+    ],
+    "seconds": 11.697896003723145,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block016"
+    ],
+    "seconds": 11.820474624633789,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block024"
+    ],
+    "seconds": 11.854536294937134,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block032"
+    ],
+    "seconds": 11.485525131225586,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block040"
+    ],
+    "seconds": 12.32175588607788,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block048"
+    ],
+    "seconds": 12.253341913223267,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block056"
+    ],
+    "seconds": 12.181934356689453,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block064"
+    ],
+    "seconds": 11.903239727020264,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block072"
+    ],
+    "seconds": 11.450784683227539,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block080"
+    ],
+    "seconds": 11.36191439628601,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block088"
+    ],
+    "seconds": 11.231321573257446,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block096"
+    ],
+    "seconds": 11.072372913360596,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block104"
+    ],
+    "seconds": 12.338217496871948,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block112"
+    ],
+    "seconds": 12.279229164123535,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block120"
+    ],
+    "seconds": 12.412463903427124,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block128"
+    ],
+    "seconds": 11.969037055969238,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block136"
+    ],
+    "seconds": 10.91947078704834,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block144"
+    ],
+    "seconds": 11.020705938339233,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block152"
+    ],
+    "seconds": 10.709579944610596,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block160"
+    ],
+    "seconds": 10.534226417541504,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block168"
+    ],
+    "seconds": 10.814658164978027,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block176"
+    ],
+    "seconds": 11.037060737609863,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block184"
+    ],
+    "seconds": 11.01591157913208,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block192"
+    ],
+    "seconds": 10.980069398880005,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block200"
+    ],
+    "seconds": 13.238609075546265,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block208"
+    ],
+    "seconds": 13.159884929656982,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block216"
+    ],
+    "seconds": 13.332450151443481,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block224"
+    ],
+    "seconds": 12.766986846923828,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block232"
+    ],
+    "seconds": 11.815565586090088,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block240"
+    ],
+    "seconds": 11.762760877609253,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_inl_block248"
+    ],
+    "seconds": 11.756897926330566,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block000"
+    ],
+    "seconds": 10.84830355644226,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block008"
+    ],
+    "seconds": 11.120152235031128,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block016"
+    ],
+    "seconds": 11.05225658416748,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block024"
+    ],
+    "seconds": 10.97192668914795,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block032"
+    ],
+    "seconds": 11.04770040512085,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block040"
+    ],
+    "seconds": 13.032211303710938,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block048"
+    ],
+    "seconds": 13.040714979171753,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block056"
+    ],
+    "seconds": 12.99812626838684,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block064"
+    ],
+    "seconds": 12.935840845108032,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block072"
+    ],
+    "seconds": 10.890258312225342,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block080"
+    ],
+    "seconds": 10.660451650619507,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block088"
+    ],
+    "seconds": 10.404268264770508,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block096"
+    ],
+    "seconds": 10.560028553009033,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block104"
+    ],
+    "seconds": 13.178642272949219,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block112"
+    ],
+    "seconds": 13.065088748931885,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block120"
+    ],
+    "seconds": 13.064555644989014,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block128"
+    ],
+    "seconds": 12.824333190917969,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block136"
+    ],
+    "seconds": 11.64418077468872,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block144"
+    ],
+    "seconds": 12.050877094268799,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block152"
+    ],
+    "seconds": 11.90412187576294,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block160"
+    ],
+    "seconds": 11.784569025039673,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block168"
+    ],
+    "seconds": 11.536915063858032,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block176"
+    ],
+    "seconds": 11.017959833145142,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block184"
+    ],
+    "seconds": 11.212918758392334,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block192"
+    ],
+    "seconds": 10.930207014083862,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block200"
+    ],
+    "seconds": 12.667695045471191,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block208"
+    ],
+    "seconds": 12.9147047996521,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block216"
+    ],
+    "seconds": 12.850674390792847,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block224"
+    ],
+    "seconds": 12.666547536849976,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block232"
+    ],
+    "seconds": 10.27505373954773,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block240"
+    ],
+    "seconds": 10.077974796295166,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/work/silicluster_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_raw_block248"
+    ],
+    "seconds": 10.052170515060425,
+    "returncode": 0
+  }
+]

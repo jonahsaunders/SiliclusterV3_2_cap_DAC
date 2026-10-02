@@ -1,0 +1,29 @@
+* Suarez DAC extracted-layout qualification
+.include sim/models/sky130_ff.spice
+.include netlist/silicluster_jonah_2cap_dac.rc.spice
+.temp 85
+VDD vdd 0 1.8
+VHI refh 0 .9
+VLO refl 0 .2
+RHI refh hi 500
+RLO refl lo 500
+CHI hi 0 5p
+CLO lo 0 5p
+ROUT out pad 500
+COUT pad 0 5p
+RLOAD pad 0 10Meg
+XDUT 0 vdd h l s hi lo out silicluster_jonah_2cap_dac_pex
+.options method=trap reltol=1e-5 abstol=1e-13 vntol=1e-7
+Vh h 0 PWL(0.000000u 0 8.200000u 0 8.205000u 1.8 10.200000u 1.8 10.205000u 0 12.600000u 0 12.605000u 1.8 14.600000u 1.8 14.605000u 0 17.000000u 0 17.005000u 1.8 19.000000u 1.8 19.005000u 0 21.400000u 0 21.405000u 1.8 23.400000u 1.8 23.405000u 0 25.800000u 0 25.805000u 1.8 27.800000u 1.8 27.805000u 0 30.200000u 0 30.205000u 1.8 32.200000u 1.8 32.205000u 0 34.600000u 0 34.605000u 1.8 36.600000u 1.8 36.605000u 0 39.000000u 0 39.005000u 1.8 41.000000u 1.8 41.005000u 0 46.900000u 0)
+Vl l 0 PWL(0.000000u 0 0.100000u 0 0.105000u 1.8 8.000000u 1.8 8.005000u 0 46.900000u 0 47u 0 47.005u 1.8)
+Vs s 0 PWL(0.000000u 0 0.100000u 0 0.105000u 1.8 8.000000u 1.8 8.005000u 0 10.400000u 0 10.405000u 1.8 12.400000u 1.8 12.405000u 0 14.800000u 0 14.805000u 1.8 16.800000u 1.8 16.805000u 0 19.200000u 0 19.205000u 1.8 21.200000u 1.8 21.205000u 0 23.600000u 0 23.605000u 1.8 25.600000u 1.8 25.605000u 0 28.000000u 0 28.005000u 1.8 30.000000u 1.8 30.005000u 0 32.400000u 0 32.405000u 1.8 34.400000u 1.8 34.405000u 0 36.800000u 0 36.805000u 1.8 38.800000u 1.8 38.805000u 0 41.200000u 0 41.205000u 1.8 43.200000u 1.8 43.205000u 0 46.900000u 0)
+.control
+set num_threads=1
+set num_threads=1
+set wr_vecnames
+set wr_singlescale
+tran 100n 146.900000u 0 100n
+wrdata verification/signoff/hold_ff_85_255.txt v(XDUT.HOLD) v(out) v(pad) i(VDD) i(VHI) i(VLO)
+quit
+.endc
+.end

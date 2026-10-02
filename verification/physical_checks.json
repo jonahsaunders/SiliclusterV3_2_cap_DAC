@@ -1,0 +1,8 @@
+{
+  "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+  "full_gds_drc_errors": 0,
+  "antenna_feedback_count": 0,
+  "native_lvs": "unique match, no property errors",
+  "gds_lvs": "unique match, no property errors",
+  "maskhints": true
+}

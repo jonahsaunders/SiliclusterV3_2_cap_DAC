@@ -1,0 +1,27 @@
+{
+  "source_repository": "https://github.com/jonahsaunders/tt_sky130_um_2_cap_DAC",
+  "source_commit": "b67d9ecd2a2fc5518c4d116b158384e28da9a48c",
+  "source_design_sha256": "755770fc8901ad5a64aeebe4aa577a3bcc560849089eb46abc00df0794732335",
+  "ported_design_sha256": "85f451e43e29defceeb36b6dad0b7fb9dc915e0ea99a791f796e52b15ce8278e",
+  "device_properties_and_connectivity_preserved": true,
+  "devices_compared": 26,
+  "interface_net_renames": {
+    "ui_in[0]": "charge_high",
+    "ui_in[1]": "charge_low",
+    "ui_in[2]": "share",
+    "ua[0]": "vref_high",
+    "ua[1]": "vout",
+    "ua[2]": "vref_low"
+  },
+  "source_macro_um": [
+    161,
+    225.76
+  ],
+  "target_macro_um": [
+    180,
+    115
+  ],
+  "removed_interface": "Tiny Tapeout harness-only ports and unused output ties",
+  "changed_physical_layout": "Compact common-centroid array, shorter floorplan, new routes, M4/M5 PDN, provisional scalar M4 pins",
+  "performance_evidence": "All qualification is rerun from target GDS; source test results are not copied"
+}

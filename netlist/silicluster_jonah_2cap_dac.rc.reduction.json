@@ -1,0 +1,9 @@
+{
+  "source": "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc_raw.spice",
+  "target": "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice",
+  "resistors_before": 5575,
+  "resistors_after": 1323,
+  "eliminated_capacitance_free_nodes": 2972,
+  "protected_nodes": 364,
+  "approximation": "none; exact star-mesh at all frequencies for removed nodes without capacitance"
+}

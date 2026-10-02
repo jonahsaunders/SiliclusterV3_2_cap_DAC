@@ -1,0 +1,29 @@
+* Suarez serial two-capacitor DAC; real SKY130 devices
+.subckt silicluster_jonah_2cap_dac VGND VDPWR charge_high charge_low share vref_high vref_low vout
+XM1 H_BAR charge_high VGND VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM2 H_BAR charge_high VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=2 l=0.15 nf=1 m=1
+XM3 L_BAR charge_low VGND VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM4 L_BAR charge_low VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=2 l=0.15 nf=1 m=1
+XM5 S_BAR share VGND VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM6 S_BAR share VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=2 l=0.15 nf=1 m=1
+XM7 vref_high charge_high SAMPLE VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM8 vref_high H_BAR SAMPLE VDPWR sky130_fd_pr__pfet_01v8_lvt w=2 l=0.35 nf=1 m=1
+XM9 vref_low charge_low SAMPLE VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM10 vref_low L_BAR SAMPLE VDPWR sky130_fd_pr__pfet_01v8_lvt w=2 l=0.35 nf=1 m=1
+XM11 SAMPLE share HOLD VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM12 SAMPLE S_BAR HOLD VDPWR sky130_fd_pr__pfet_01v8_lvt w=2 l=0.35 nf=1 m=1
+XM13 BIAS BIAS VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=4 l=2 nf=1 m=1
+XM14 TAIL BIAS VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=4 l=2 nf=1 m=1
+XM15 AMP HOLD TAIL VDPWR sky130_fd_pr__pfet_01v8_lvt w=4 l=1 nf=1 m=1
+XM16 MIRROR vout TAIL VDPWR sky130_fd_pr__pfet_01v8_lvt w=4 l=1 nf=1 m=1
+XM17 MIRROR MIRROR VGND VGND sky130_fd_pr__nfet_01v8 w=4 l=2 nf=1 m=1
+XM18 AMP MIRROR VGND VGND sky130_fd_pr__nfet_01v8 w=4 l=2 nf=1 m=1
+XM19 vout BIAS VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=24 l=2 nf=1 m=1
+XM20 vout AMP VGND VGND sky130_fd_pr__nfet_01v8 w=20 l=1 nf=1 m=1
+XR1 BIAS RBMID VGND sky130_fd_pr__res_xhigh_po_0p35 l=30 m=1
+XR2 RBMID VGND VGND sky130_fd_pr__res_xhigh_po_0p35 l=30 m=1
+XC1 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 w=14 l=14 m=16
+XC2 HOLD VGND sky130_fd_pr__cap_mim_m3_1 w=14 l=14 m=16
+XR3 AMP COMP VGND sky130_fd_pr__res_xhigh_po_0p35 l=14 m=1
+XC3 COMP vout sky130_fd_pr__cap_mim_m3_1 w=26 l=26 m=1
+.ends silicluster_jonah_2cap_dac

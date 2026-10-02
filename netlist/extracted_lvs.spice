@@ -1,0 +1,110 @@
+* NGSPICE file created from silicluster_jonah_2cap_dac.ext - technology: sky130A
+
+.subckt dev_cap_mim_m3_1_14_14 C2 C1
+X0 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+.ends
+
+.subckt dev_nfet_01v8_20_1 B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=5.8 pd=40.58 as=5.8 ps=40.58 w=20 l=1
+.ends
+
+.subckt dev_pfet_01v8_lvt_2_0p35 B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+.ends
+
+.subckt dev_res_xhigh_po_0p35_0p35_30 B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_0p35 l=30
+.ends
+
+.subckt dev_nfet_01v8_1_0p15 B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt dev_pfet_01v8_4_2 B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+.ends
+
+.subckt dev_res_xhigh_po_0p35_0p35_14 B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_0p35 l=14
+.ends
+
+.subckt dev_pfet_01v8_lvt_4_1 B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+.ends
+
+.subckt dev_nfet_01v8_4_2 B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+.ends
+
+.subckt dev_pfet_01v8_2_0p15 B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+.ends
+
+.subckt dev_pfet_01v8_24_2 B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=6.96 pd=48.58 as=6.96 ps=48.58 w=24 l=2
+.ends
+
+.subckt dev_cap_mim_m3_1_26_26 C2 C1
+X0 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=26 w=26
+.ends
+
+.subckt silicluster_jonah_2cap_dac VGND VDPWR charge_high charge_low share vref_high
++ vref_low vout
+XCB_2_7 VGND HOLD dev_cap_mim_m3_1_14_14
+XM20 VGND vout VGND AMP dev_nfet_01v8_20_1
+XCB_0_5 VGND HOLD dev_cap_mim_m3_1_14_14
+XM10 VDPWR vref_low SAMPLE L_BAR dev_pfet_01v8_lvt_2_0p35
+XCB_0_6 VGND HOLD dev_cap_mim_m3_1_14_14
+XR1 VGND BIAS RBMID dev_res_xhigh_po_0p35_0p35_30
+XM11 VGND SAMPLE HOLD share dev_nfet_01v8_1_0p15
+XR2 VGND RBMID VGND dev_res_xhigh_po_0p35_0p35_30
+XM12 VDPWR SAMPLE HOLD S_BAR dev_pfet_01v8_lvt_2_0p35
+XM13 VDPWR BIAS VDPWR BIAS dev_pfet_01v8_4_2
+XR3 VGND AMP COMP dev_res_xhigh_po_0p35_0p35_14
+XM14 VDPWR TAIL VDPWR BIAS dev_pfet_01v8_4_2
+XCA_2_1 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCA_2_2 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XM15 VDPWR AMP TAIL HOLD dev_pfet_01v8_lvt_4_1
+XCA_0_0 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XM16 VDPWR MIRROR TAIL vout dev_pfet_01v8_lvt_4_1
+XM1 VGND H_BAR VGND charge_high dev_nfet_01v8_1_0p15
+XM17 VGND MIRROR VGND MIRROR dev_nfet_01v8_4_2
+XM2 VDPWR H_BAR VDPWR charge_high dev_pfet_01v8_2_0p15
+XCA_2_5 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XM18 VGND AMP VGND MIRROR dev_nfet_01v8_4_2
+XM3 VGND L_BAR VGND charge_low dev_nfet_01v8_1_0p15
+XM4 VDPWR L_BAR VDPWR charge_low dev_pfet_01v8_2_0p15
+XCB_3_1 VGND HOLD dev_cap_mim_m3_1_14_14
+XCA_2_6 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCA_0_3 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XM19 VDPWR vout VDPWR BIAS dev_pfet_01v8_24_2
+XM5 VGND S_BAR VGND share dev_nfet_01v8_1_0p15
+XCB_3_2 VGND HOLD dev_cap_mim_m3_1_14_14
+XCA_0_4 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XM6 VDPWR S_BAR VDPWR share dev_pfet_01v8_2_0p15
+XCB_1_0 VGND HOLD dev_cap_mim_m3_1_14_14
+XM7 VGND vref_high SAMPLE charge_high dev_nfet_01v8_1_0p15
+XCB_3_5 VGND HOLD dev_cap_mim_m3_1_14_14
+XM8 VDPWR vref_high SAMPLE H_BAR dev_pfet_01v8_lvt_2_0p35
+XCA_0_7 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCB_3_6 VGND HOLD dev_cap_mim_m3_1_14_14
+XM9 VGND vref_low SAMPLE charge_low dev_nfet_01v8_1_0p15
+XCB_1_3 VGND HOLD dev_cap_mim_m3_1_14_14
+XCB_1_4 VGND HOLD dev_cap_mim_m3_1_14_14
+XCB_1_7 VGND HOLD dev_cap_mim_m3_1_14_14
+XC3 vout COMP dev_cap_mim_m3_1_26_26
+XCA_3_0 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCA_3_3 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCA_3_4 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCA_1_1 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCA_1_2 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCA_3_7 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCA_1_5 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCA_1_6 VGND SAMPLE dev_cap_mim_m3_1_14_14
+XCB_2_0 VGND HOLD dev_cap_mim_m3_1_14_14
+XCB_2_3 VGND HOLD dev_cap_mim_m3_1_14_14
+XCB_2_4 VGND HOLD dev_cap_mim_m3_1_14_14
+XCB_0_1 VGND HOLD dev_cap_mim_m3_1_14_14
+XCB_0_2 VGND HOLD dev_cap_mim_m3_1_14_14
+.ends
+

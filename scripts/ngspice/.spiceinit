@@ -1,0 +1,5 @@
+* Explicit project initialization: SKY130 cached native BSIM4 models.
+* Do not inherit IHP OSDI preloads from the multi-PDK container startup.
+set num_threads=1
+* Include thermal noise from SKY130 behavioral resistor models.
+set enable_noisy_r

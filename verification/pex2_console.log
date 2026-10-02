@@ -1,0 +1,4 @@
+[INFO] Running PEX of </foss/designs/work/silicluster_dac/gds/silicluster_jonah_2cap_dac.gds>.
+[INFO] Results are put into </foss/designs/work/silicluster_dac/build/pex2>.
+[INFO] PEX (C-coupled) done, the extracted SPICE netlist is </foss/designs/work/silicluster_dac/build/pex2/silicluster_jonah_2cap_dac.pex.spice>.
+[DONE] Bye!

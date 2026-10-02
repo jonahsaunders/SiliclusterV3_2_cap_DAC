@@ -1,0 +1,246 @@
+{
+  "capacitors": [
+    {
+      "bank": "SAMPLE",
+      "x": 10.8,
+      "y": 13
+    },
+    {
+      "bank": "HOLD",
+      "x": 28.5,
+      "y": 13
+    },
+    {
+      "bank": "HOLD",
+      "x": 46.2,
+      "y": 13
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 63.89999999999999,
+      "y": 13
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 81.6,
+      "y": 13
+    },
+    {
+      "bank": "HOLD",
+      "x": 99.3,
+      "y": 13
+    },
+    {
+      "bank": "HOLD",
+      "x": 116.99999999999999,
+      "y": 13
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 134.7,
+      "y": 13
+    },
+    {
+      "bank": "HOLD",
+      "x": 10.8,
+      "y": 33
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 28.5,
+      "y": 33
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 46.2,
+      "y": 33
+    },
+    {
+      "bank": "HOLD",
+      "x": 63.89999999999999,
+      "y": 33
+    },
+    {
+      "bank": "HOLD",
+      "x": 81.6,
+      "y": 33
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 99.3,
+      "y": 33
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 116.99999999999999,
+      "y": 33
+    },
+    {
+      "bank": "HOLD",
+      "x": 134.7,
+      "y": 33
+    },
+    {
+      "bank": "HOLD",
+      "x": 10.8,
+      "y": 53
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 28.5,
+      "y": 53
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 46.2,
+      "y": 53
+    },
+    {
+      "bank": "HOLD",
+      "x": 63.89999999999999,
+      "y": 53
+    },
+    {
+      "bank": "HOLD",
+      "x": 81.6,
+      "y": 53
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 99.3,
+      "y": 53
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 116.99999999999999,
+      "y": 53
+    },
+    {
+      "bank": "HOLD",
+      "x": 134.7,
+      "y": 53
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 10.8,
+      "y": 73
+    },
+    {
+      "bank": "HOLD",
+      "x": 28.5,
+      "y": 73
+    },
+    {
+      "bank": "HOLD",
+      "x": 46.2,
+      "y": 73
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 63.89999999999999,
+      "y": 73
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 81.6,
+      "y": 73
+    },
+    {
+      "bank": "HOLD",
+      "x": 99.3,
+      "y": 73
+    },
+    {
+      "bank": "HOLD",
+      "x": 116.99999999999999,
+      "y": 73
+    },
+    {
+      "bank": "SAMPLE",
+      "x": 134.7,
+      "y": 73
+    }
+  ],
+  "spines": {
+    "SAMPLE": 19,
+    "HOLD": 26.5,
+    "vref_high": 34,
+    "vout": 41.5,
+    "vref_low": 49,
+    "BIAS": 56.5,
+    "RBMID": 64,
+    "AMP": 71.5,
+    "COMP": 79,
+    "VGND": 86.5
+  },
+  "lanes": {
+    "VGND": 95.0,
+    "VDPWR": 96.0,
+    "charge_high": 97.0,
+    "charge_low": 98.0,
+    "share": 99.0,
+    "H_BAR": 100.0,
+    "L_BAR": 101.0,
+    "S_BAR": 102.0,
+    "vref_high": 103.0,
+    "vref_low": 104.0,
+    "SAMPLE": 105.0,
+    "SHIELD": 106.0,
+    "HOLD": 107.0,
+    "BIAS": 108.0,
+    "RBMID": 109.0,
+    "MIRROR": 110.0,
+    "TAIL": 111.0,
+    "AMP": 112.0,
+    "COMP": 113.0,
+    "vout": 114.0
+  },
+  "pins": [
+    {
+      "name": "charge_high",
+      "x": 12,
+      "y": 114.7,
+      "layer": "metal4",
+      "direction": "input"
+    },
+    {
+      "name": "charge_low",
+      "x": 27,
+      "y": 114.7,
+      "layer": "metal4",
+      "direction": "input"
+    },
+    {
+      "name": "share",
+      "x": 42,
+      "y": 114.7,
+      "layer": "metal4",
+      "direction": "input"
+    },
+    {
+      "name": "vref_high",
+      "x": 10,
+      "y": 0.2,
+      "layer": "metal4",
+      "direction": "input"
+    },
+    {
+      "name": "vref_low",
+      "x": 25,
+      "y": 0.2,
+      "layer": "metal4",
+      "direction": "input"
+    },
+    {
+      "name": "vout",
+      "x": 165,
+      "y": 0.2,
+      "layer": "metal4",
+      "direction": "output"
+    }
+  ],
+  "macro_um": [
+    180,
+    115
+  ]
+}

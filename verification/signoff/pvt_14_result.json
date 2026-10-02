@@ -1,0 +1,106 @@
+{
+  "name": "pvt_14",
+  "corner": "ff",
+  "supply_v": 1.62,
+  "temp_c": 85.0,
+  "load_pf": 20.0,
+  "step_ns": 100,
+  "mismatch_seed": null,
+  "netlist": "/foss/designs/work/silicluster_dac/netlist/silicluster_jonah_2cap_dac.rc.spice",
+  "netlist_sha256": "cc6a3b5c6d07e2b634c93991ac60591bd67764222b210e165198f63464744e6c",
+  "gds_sha256": "befb7d48065a35ca57e100f0ab2846859c1f49a87afc503393072093e10a78d2",
+  "model_sha256": "7a9c91b4a04cbcd04cfaf1617ce711d1c924994dcd978e84ba0c4182a443a935",
+  "rows": [
+    {
+      "code": 0,
+      "time_us": 46.400000000000006,
+      "ideal_v": 0.2,
+      "output_v": 0.200834474627673,
+      "raw_error_lsb": 0.30517929240612524,
+      "last_500ns_ripple_uv": 0.05100000000091143
+    },
+    {
+      "code": 1,
+      "time_us": 93.30000000000005,
+      "ideal_v": 0.20273437500000002,
+      "output_v": 0.203520465223892,
+      "raw_error_lsb": 0.2874844247376375,
+      "last_500ns_ripple_uv": 0.05100000000091143
+    },
+    {
+      "code": 15,
+      "time_us": 140.20000000000005,
+      "ideal_v": 0.241015625,
+      "output_v": 0.24135039892876,
+      "raw_error_lsb": 0.12243160823222712,
+      "last_500ns_ripple_uv": 0.04600000000354321
+    },
+    {
+      "code": 63,
+      "time_us": 187.09999999999985,
+      "ideal_v": 0.372265625,
+      "output_v": 0.3720706216204,
+      "raw_error_lsb": -0.07131552168228188,
+      "last_500ns_ripple_uv": 0.029000000012491256
+    },
+    {
+      "code": 127,
+      "time_us": 233.99999999999966,
+      "ideal_v": 0.547265625,
+      "output_v": 0.54702998472304,
+      "raw_error_lsb": -0.0861770155739399,
+      "last_500ns_ripple_uv": 0.007999999995789153
+    },
+    {
+      "code": 128,
+      "time_us": 280.89999999999947,
+      "ideal_v": 0.55,
+      "output_v": 0.55070957088046,
+      "raw_error_lsb": 0.25950020771107674,
+      "last_500ns_ripple_uv": 0.007000000024071085
+    },
+    {
+      "code": 129,
+      "time_us": 327.7999999999993,
+      "ideal_v": 0.552734375,
+      "output_v": 0.5534213185519801,
+      "raw_error_lsb": 0.25122507043842496,
+      "last_500ns_ripple_uv": 0.007000000024071085
+    },
+    {
+      "code": 192,
+      "time_us": 374.6999999999991,
+      "ideal_v": 0.7249999999999999,
+      "output_v": 0.72572771390194,
+      "raw_error_lsb": 0.2661353698523986,
+      "last_500ns_ripple_uv": 0.01400000004814217
+    },
+    {
+      "code": 254,
+      "time_us": 421.5999999999989,
+      "ideal_v": 0.89453125,
+      "output_v": 0.8948574101655999,
+      "raw_error_lsb": 0.1192814319908361,
+      "last_500ns_ripple_uv": 0.03500000000933312
+    },
+    {
+      "code": 255,
+      "time_us": 468.4999999999987,
+      "ideal_v": 0.897265625,
+      "output_v": 0.89756980883641,
+      "raw_error_lsb": 0.11124437445853834,
+      "last_500ns_ripple_uv": 0.03500000000933312
+    }
+  ],
+  "full_256_codes": false,
+  "monotonic": true,
+  "max_raw_error_lsb": 0.30517929240612524,
+  "max_ripple_uv": 0.05100000000091143,
+  "max_supply_current_ua": 164.35942699999998,
+  "max_reference_current_ma": 0.193339298,
+  "selected_endpoint_inl_lsb": 0.32883156739172836,
+  "selected_min_dnl_lsb": -0.016947227437954293,
+  "selected_max_dnl_lsb": 0.3467014288972492,
+  "endpoint_offset_mv": 0.8344746276729986,
+  "endpoint_gain_error_pct": -0.07605290899904693
+}
