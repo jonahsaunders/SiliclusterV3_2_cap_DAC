@@ -51,8 +51,8 @@
     },
     {
       "path": "docs/images/schematic_overview.png",
-      "bytes": 157303,
-      "sha256": "ccd0f687c69abfd39f70577e18106279ea10959f9c0948ccfe653026a0d6694d"
+      "bytes": 157151,
+      "sha256": "f9cfb7299333fe483daf6ee27ce83d6c934a9557a0539dc661cca6b907843d67"
     },
     {
       "path": "docs/images/stability_settling.png",
@@ -226,13 +226,13 @@
     },
     {
       "path": "schematic/Sky130.kicad_sym",
-      "bytes": 17505,
-      "sha256": "066a776b70380b1bfda80639c4100b8d0e3f6aeaad59a874400c8fb5ebc2c6c4"
+      "bytes": 17590,
+      "sha256": "6c006d4fdda02114e6863e7429118421035fee0e196b0164152827cd885a72f0"
     },
     {
       "path": "schematic/render/buffer.png",
-      "bytes": 70548,
-      "sha256": "614446920d751a011b4ccbd91464d54ae287deb466e2908959574098352caede"
+      "bytes": 70370,
+      "sha256": "7a02f2ecb7d4e686ec1e66d2b5a781a4a7222bbd29278066ece107a74b011884"
     },
     {
       "path": "schematic/render/control.png",
@@ -241,13 +241,13 @@
     },
     {
       "path": "schematic/render/core.png",
-      "bytes": 54585,
-      "sha256": "2d0d9be4aca675c9060edde1a11383f62764a20ae0c1c3c4211095039dc6ea13"
+      "bytes": 54586,
+      "sha256": "f505858e931270846ad5bd78cf0a7e48f88061564d20c75e3931dd1ea51ce744"
     },
     {
       "path": "schematic/render/suarez_dac.svg",
-      "bytes": 539354,
-      "sha256": "17ee9e9d9877b46811b98a09902bfb1239bd5e47e68e1f2beafd5ecaf7e0308c"
+      "bytes": 538597,
+      "sha256": "8cd14daf14c117af714c086a06a780ae2a1ceb81a2a13ec419702ef10750743a"
     },
     {
       "path": "schematic/suarez_dac.kicad_prl",
@@ -256,28 +256,28 @@
     },
     {
       "path": "schematic/suarez_dac.kicad_pro",
-      "bytes": 77,
-      "sha256": "428289e330148a2614ad81324b7b94eb5a3d7ab979cc81df8f9beab3f025a23b"
+      "bytes": 83,
+      "sha256": "90dc33414a67e11f6d5df5f835bcef852e82b80203cb3867bcbe15ebfc350c7a"
     },
     {
       "path": "schematic/suarez_dac.kicad_sch",
-      "bytes": 90267,
-      "sha256": "097b28105b24118b769ca660e9c6b926bc681ee69a3e66745e1cbd18f833abb3"
+      "bytes": 90065,
+      "sha256": "13210f81b4ca52c67b043c0720930b4e49ad918940620c603d6b130d29158fc3"
     },
     {
       "path": "schematic/suarez_dac.pdf",
-      "bytes": 170805,
-      "sha256": "f39354f657da0d8ff664245080d6de8143c92a791234dc0015f4cb081f91d348"
+      "bytes": 170690,
+      "sha256": "a34f6862155c4deb8d2864e8cab53255ad01af376e694529beea176150b182c6"
     },
     {
       "path": "schematic/suarez_dac.png",
-      "bytes": 223566,
-      "sha256": "c29575e0918646dbf2630ab727f2f5a90e94d5ee38ee45fb65f9c00b287d64ed"
+      "bytes": 223434,
+      "sha256": "71546f9c50fd54112063a0bd64a15efa6bac8aedc3bd13d028bc76702968dbcf"
     },
     {
       "path": "schematic/sym-lib-table",
-      "bytes": 163,
-      "sha256": "c3dce646297fdfc2031b27974ea8992f5d68bdbc7c0361906a06f408d6ef88ae"
+      "bytes": 164,
+      "sha256": "b128873de496187d91f3f9b27edb00db5ca8b2887517d13f589a8972743855c7"
     },
     {
       "path": "scripts/analyze_sim.py",
@@ -306,8 +306,8 @@
     },
     {
       "path": "scripts/build_schematic.py",
-      "bytes": 15451,
-      "sha256": "b463fd76ea54797c5681ceafd34e446a9e2412c7554eccda521e31ccb120162e"
+      "bytes": 15689,
+      "sha256": "f3f45e37cdc6c9aa9b7b6d2a4b1ff3e26010b9880031fa4460a1f801346690a3"
     },
     {
       "path": "scripts/check_layout.py",
@@ -511,8 +511,8 @@
     },
     {
       "path": "verification/native_schematic_export.json",
-      "bytes": 300,
-      "sha256": "143940532b29fa5090bb8264b77b1a14b06463b996752cea28c007853f0d651b"
+      "bytes": 294,
+      "sha256": "0c2768a7673439d33b2b096d3a6cceae1732851fa86b3cba86538977c1aca09d"
     },
     {
       "path": "verification/pex2.log",
@@ -552,17 +552,17 @@
     {
       "path": "verification/schematic_connectivity.json",
       "bytes": 536,
-      "sha256": "bb6727e8d9c795610b335bafea6147a7b2268a973b900aa3cdc9b5bf0299282e"
+      "sha256": "7c19cb8d379a5b90213c0659fc8071004ea379946e2a182deb374d172f06a08e"
     },
     {
       "path": "verification/schematic_erc.rpt",
       "bytes": 357,
-      "sha256": "e0f7af6a3269732d566538b81e37f50971bc52de4a32b803a784f20780bf17e7"
+      "sha256": "df9d913ddac0d03f7095bd3b5c80097fbbf5ea98ae97480fec8f04487d7aa4df"
     },
     {
       "path": "verification/schematic_netlist.xml",
-      "bytes": 47276,
-      "sha256": "5eb494ef4fd342eeaf688bbb6096527d87011a347e14ada569cf60aa480f2715"
+      "bytes": 47279,
+      "sha256": "fb90dac5bc911152a0368fc4c3be3e312f3bf37970277c25f0758636be8532f8"
     },
     {
       "path": "verification/signoff/ac_ff_1.62_-40.0_20.0_0.2_rz14_cc26.log",
