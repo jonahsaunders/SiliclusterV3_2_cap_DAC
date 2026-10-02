@@ -6,9 +6,11 @@ An 8-bit serial charge-sharing DAC in SKY130, prepared as a **180 × 115 µm ana
 
 ## Circuit and layout
 
-![Connected editable schematic](docs/images/schematic_overview.png)
+![Connected editable schematic with a conventional M17/M18 current-mirror drawing](docs/images/schematic_overview.png)
 
 The two conversion banks are nominally 6.454 pF each, with sixteen MIM units per bank in a common-centroid array. A separate C3 capacitor compensates the output buffer. Three externally timed phases charge, isolate, and share the capacitor banks; eight bits arrive LSB first. The ideal output is `0.2 V + 0.7 V × code / 256`.
+
+The output buffer's lower NMOS current mirror (M17/M18) is drawn in the conventional form: inward-facing gates joined by a straight wire, with a short drain-to-gate connection on M17. The redraw preserves all electrical connections and device sizes. [Buffer detail](schematic/render/buffer.png) · [Full schematic PDF](schematic/suarez_dac.pdf).
 
 ![Actual compact GDS layout](docs/images/layout_overview.png)
 
